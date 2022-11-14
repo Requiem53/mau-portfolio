@@ -7,14 +7,9 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div className="body-container">
-<<<<<<< HEAD:src/Components/Home.js
 
       <div className="info-container">
         <img className="my-img" src={pic} alt="slamm pic" />
-=======
-      <div className="info-container">
-        <img className="my-img" src={pic} alt="maurice pic" />
->>>>>>> parent of c64d664 (added smooth scroll to section):src/Home.js
 
         <div className="intro-text-container">
           <h2 className="intro-h">SLAMM KHELMER A. LUAB</h2>
@@ -37,8 +32,6 @@ const Home = () => {
       {/* <Technologies /> */}
 
       <Projects />
-
-      <SiteFooter />
     </div>
   );
 };
